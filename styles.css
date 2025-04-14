@@ -1,0 +1,46 @@
+body {
+  background-color: #FFD7C4;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+/*Design for banner */
+.top-banner {
+background-color: #FF9874;
+padding: 10px 20px;
+text-align: left;
+font-weight: bold;
+font-size: 10px;
+font-family: 'Poppins', sans-serif;
+}
+
+.top-banner span {
+margin-right: 10px;
+}
+
+
+/*Design for logo */
+.logo-container {
+padding: 30px 20px;
+}
+
+.logo {
+width: 200px;
+height: auto;
+display: block;
+}
+
+.promo-code {
+color: white;
+}
+
+
+/*Design for inner box */
+.info-box {
+background-color: #DAE6FF;
+padding: 160px 200px;
+margin: 40px 20px;
+border-radius: 8px;
+color: #000000;
+}
