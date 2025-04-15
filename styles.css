@@ -7,16 +7,36 @@ body {
 
 /*Design for banner */
 .top-banner {
-background-color: #FF9874;
-padding: 10px 20px;
-text-align: left;
-font-weight: bold;
-font-size: 10px;
-font-family: 'Poppins', sans-serif;
+  background-color: #FF9874;
+  height: 30px;
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: 'Poppins', sans-serif;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .top-banner span {
-margin-right: 10px;
+  margin-right: 10px;
+}
+
+.top-bar-img {
+  height: 100%;
+  max-height: 30px;
+  object-fit: contain;
+}
+
+
+/* Design for Login/Signup */
+.login-img {
+  position: absolute;
+  top: 60px; /* Adjust this to control how far below the top banner it appears */
+  right: 30px; /* Align to the right */
+  height: 30px; /* Adjust size as needed */
+  z-index: 10; /* Ensure it's above other elements if needed */
 }
 
 
@@ -36,11 +56,163 @@ color: white;
 }
 
 
+/* Buttons */
+.logo-and-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px 20px;
+  position: relative;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+  margin-left: 30px;
+}
+
+.nav-buttons button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  background: none;
+  border: none;
+  color: #03081F;
+  cursor: pointer;
+  padding: 5px 15px;
+}
+
+.nav-buttons button:hover {
+  color: #7695FF;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-buttons button:active {
+  color: #FF9874;
+}
+
+
 /*Design for inner box */
 .info-box {
-background-color: #DAE6FF;
-padding: 160px 200px;
-margin: 40px 20px;
-border-radius: 8px;
-color: #000000;
+  background-color: #DAE6FF;
+  padding: 160px 20px;
+  margin: 10px 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  color: #000000;
+  position: relative;
+}
+
+.info-box img {
+  position: absolute;
+  top: 0px;
+  right: -110px;
+  left: auto;
+  bottom: auto; 
+  transform: translateX(-50%); /*Ensures the image is perfectly centered */
+  width: 222px;
+  height: auto;
+}
+
+.info-box .review-1 {
+  position: absolute;
+  top: 0px;
+  right: -110px;
+  left: auto;
+  bottom: auto; 
+  transform: translateX(-50%); 
+  width: 222px;
+  height: auto;
+}
+
+.info-box .review-2 {
+  position: absolute;
+  top: 110px;
+  right: 40px;
+  left: auto;
+  bottom: auto; 
+  transform: translateX(-50%); /*Ensures the image is perfectly centered */
+  width: 222px;
+  height: auto;
+}
+
+.info-box .review-3 {
+  position: absolute;
+  top: auto;
+  right: -90px;
+  left: auto;
+  bottom: 10px; 
+  transform: translateX(-50%); /*Ensures the image is perfectly centered */
+  width: 222px;
+  height: auto;
+}
+
+.info-box .donut-image-1 {
+  position: absolute;
+    top: 0px;
+    left: auto;       
+    right: 320px;      
+    bottom: auto;
+    transform: translateX(-50%); /*Ensures the image is perfectly centered */
+    width: 230px;
+    height: auto;
+  }
+
+  .info-box .donut-image-2 {
+    position: absolute;
+      top: auto;
+      left: auto;       
+      right: 470px;      
+      bottom: 0px;
+      transform: translateX(-50%);
+      width: 200px;
+      height: auto;
+    }
+
+    .info-box .postcode {
+      position: absolute;
+        top: auto;
+        left: 200px;       
+        right: auto;      
+        bottom: 60px;
+        transform: translateX(-50%);
+        width: 200px;
+        height: auto;
+      }
+
+
+    .info-text {
+      font-family: 'Poppins', sans-serif;
+      font-size: 10px;
+      font-weight: bold;
+      color: #03081F;
+      margin-top: -110px;
+      left: 70px;
+      position: relative; /* So it doesn't overlap with absolutely positioned images */
+    }
+
+    .tagline {
+      position: absolute;
+      top: 50px;
+      left: 80px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      font-size: 30px;
+      color: #03081F;
+      text-align: center;
+    }
+    
+    .tagline span {
+      color: #7695FF;
+    }
+
+
+/* Peach accent bar */
+.accent-bar {
+  background-color: #FF9874;
+  height: 5px;
+  width: calc(100% - 40px);
+  margin: 10px 40px 0 20px;
+  border-radius: 0 0 8px 8px;
 }
