@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Browse Menu</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;500&family=Potta+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="top-banner">
+  <div>
+    <span>Get 5% off your first order</span>
+    <span class="promo-code">Promo: ORDER5</span>
+  </div>
+  <img src="Top Bar.png" alt="Top Bar" class="top-bar-img">
+</div>
+
+<img src="Login.png" alt="Login" class="login-img">
+
+<div class="logo-and-nav">
+  <img src="Tres Delish Logo.png" alt="Logo" class="logo">
+
+  <div class="nav-buttons">
+    <button onclick="location.href='index.html'">Home</button>
+    <button onclick="loadWireframe('browse')">Browse Menu</button>
+    <button>Bulk Buy</button>
+    <button>Custom</button>
+    <button>Discounts</button>
+    <button onclick="loadWireframe('track')">Track Order</button>
+    <button onclick="loadWireframe('help')">Help</button>
+  </div>
+</div>
+
+
+<div class="info-box">
+    <h1 class="menu-title">Menu</h1>
+
+    <img src="Mixed Doughnut Bundle.png" alt="Menu Item 1 Image" class="menu-1" />
+    <img src="Mini Doughnut Bites.png" alt="Menu Item 2 Image" class="menu-2" />
+    <img src="Single Glaze Doughnut.png" alt="Menu Item 3 Image" class="menu-3" />
+    <img src="Choco Sprinkle Doughnut.png" alt="Menu Item 4 Image" class="menu-4" />
+    <img src="Strawberry Heart Doughnut.png" alt="Menu Item 5 Image" class="menu-5" />
+    <img src="Lemon Glaze Doughnut.png" alt="Menu Item 6 Image" class="menu-6" />
+
+    <img src="Vegan.png" alt="Vegan Tag Image" class="vegan" />
+    <img src="Vegetarian.png" alt="Vegetarian Tag Image" class="vegetarian" />
+    <img src="Gluten Free.png" alt="Gluten Free Image" class="gluten-free" />
+    <img src="Vegan.png" alt="Vegan Tag Image 2" class="vegan-2" />
+    <img src="Vegetarian.png" alt="Vegetarian Tag Image 2" class="vegetarian-2" />
+    <img src="Vegan.png" alt="Vegan Tag Image 3" class="vegan-3" />
+
+    <p class="option1-description">An amazing bundle <br>
+         of a different variety <br>
+         of doughnuts...</p>
+
+    <p class ="option2-description">Mini doughnut bites <br>
+         of joy, perfect to satisfy <br>
+         any cravings...</p>
+
+    <p class ="option3-description">A classic single <br>
+         glazed doughnut...</p>
+
+    <p class ="option4-description">Choco sprinkle <br>
+         doughnuts, perfect for <br>
+          all choco lovers...</p>
+
+    <p class ="option5-description">In love... <br>
+        with strawberry heart <br>
+        shaped doughnuts...</p>
+
+    <p class ="option6-description">Doughnuts with a <br>
+         tangy lemon glaze <br>
+        drizzled on top...</p>
+
+    
+        <p class="option1-price">£15.00</p>
+        <p class="option2-price">£12.00</p>
+        <p class="option3-price">£2.50</p>
+        <p class="option4-price">£2.50</p>
+        <p class="option5-price">£5.00</p>
+        <p class="option6-price">£6.00</p>
+
+
+</div>
+
+<div class="quantity-container">
+    <img src="Increase or Decrease.png" alt="Quantity Controls" class="quantity-img">
+    <div class="click-zone minus-zone" onclick="decreaseQuantity()"></div>
+    <div class="click-zone plus-zone" onclick="increaseQuantity()"></div>
+    <span id="quantity-value">0</span>
+  </div>
+
+
+<div class="accent-bar"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

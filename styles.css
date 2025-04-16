@@ -132,7 +132,7 @@ color: white;
   right: 40px;
   left: auto;
   bottom: auto; 
-  transform: translateX(-50%); /*Ensures the image is perfectly centered */
+  transform: translateX(-50%);
   width: 222px;
   height: auto;
 }
@@ -143,7 +143,7 @@ color: white;
   right: -90px;
   left: auto;
   bottom: 10px; 
-  transform: translateX(-50%); /*Ensures the image is perfectly centered */
+  transform: translateX(-50%);
   width: 222px;
   height: auto;
 }
@@ -154,7 +154,7 @@ color: white;
     left: auto;       
     right: 320px;      
     bottom: auto;
-    transform: translateX(-50%); /*Ensures the image is perfectly centered */
+    transform: translateX(-50%);
     width: 230px;
     height: auto;
   }
@@ -189,7 +189,7 @@ color: white;
       color: #03081F;
       margin-top: -110px;
       left: 70px;
-      position: relative; /* So it doesn't overlap with absolutely positioned images */
+      position: relative;
     }
 
     .tagline {
@@ -215,4 +215,316 @@ color: white;
   width: calc(100% - 40px);
   margin: 10px 40px 0 20px;
   border-radius: 0 0 8px 8px;
+}
+
+
+
+/* Menu Design */
+
+.menu-title {
+  position: absolute;
+  top: -10px;
+  left: 40px;
+  font-family: 'Potta One', cursive;
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 15px;
+  color: #494541;
+  text-align: center;
+}
+
+.info-box .menu-1 {
+  position: absolute;
+  top: 60px;
+  left: 115px;
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.info-box .menu-2 {
+  position: absolute;
+  top: 60px;
+  left: 315px;
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.info-box .menu-3 {
+  position: absolute;
+  top: 60px;
+  left: 515px;
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.info-box .menu-4 {
+  position: absolute;
+  top: 60px;
+  left: 715px;
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.info-box .menu-5 {
+  position: absolute;
+  top: 60px;
+  left: 915px;
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.info-box .menu-6 {
+  position: absolute;
+  top: 60px;
+  left: 1115px;
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.info-box .vegan {
+  position: absolute;
+  top: 230px;
+  left: 75px;
+  width: 70px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.info-box .gluten-free {
+  position: absolute;
+  top: 230px;
+  left: 275px;
+  width: 70px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.info-box .vegetarian {
+  position: absolute;
+  top: 230px;
+  left: 475px;
+  width: 70px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.info-box .vegan-2 {
+  position: absolute;
+  top: 230px;
+  left: 675px;
+  width: 70px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.info-box .vegetarian-2 {
+  position: absolute;
+  top: 230px;
+  left: 875px;
+  width: 70px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.info-box .vegan-3 {
+  position: absolute;
+  top: 230px;
+  left: 1075px;
+  width: 70px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.info-box .option1-description {
+  position: absolute;
+  top: 110px;
+  left: 40px;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  margin-top: 150px;
+  color: #665C5C;
+  text-align: left;
+}
+
+.info-box .option2-description {
+  position: absolute;
+  top: 110px;
+  left: 240px;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  margin-top: 150px;
+  color: #665C5C;
+  text-align: left;
+}
+
+.info-box .option3-description {
+  position: absolute;
+  top: 110px;
+  left: 440px;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  margin-top: 150px;
+  color: #665C5C;
+  text-align: left;
+}
+
+.info-box .option4-description {
+  position: absolute;
+  top: 110px;
+  left: 640px;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  margin-top: 150px;
+  color: #665C5C;
+  text-align: left;
+}
+
+.info-box .option5-description {
+  position: absolute;
+  top: 110px;
+  left: 840px;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  margin-top: 150px;
+  color: #665C5C;
+  text-align: left;
+}
+
+.info-box .option6-description {
+  position: absolute;
+  top: 110px;
+  left: 1040px;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 500;
+  font-size: 10px;
+  margin-top: 150px;
+  color: #665C5C;
+  text-align: left;
+}
+
+
+.option1-price {
+  position: absolute;
+  top: 230px;
+  left: 145px;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #391713;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.option2-price {
+  position: absolute;
+  top: 230px;
+  left: 345px;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #391713;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.option3-price {
+  position: absolute;
+  top: 230px;
+  left: 545px;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #391713;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.option4-price {
+  position: absolute;
+  top: 230px;
+  left: 745px;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #391713;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.option5-price {
+  position: absolute;
+  top: 230px;
+  left: 945px;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #391713;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.option6-price {
+  position: absolute;
+  top: 230px;
+  left: 1145px;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #391713;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Increase/Decrease Buttons */
+.quantity-container {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  margin-top: -40px;
+  margin-left: 10px;
+}
+
+.quantity-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.click-zone {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 33.3%;
+  cursor: pointer;
+}
+
+.minus-zone {
+  left: 0;
+}
+
+.plus-zone {
+  right: 0;
+}
+
+#quantity-value {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'League Spartan', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #03081F;
 }
