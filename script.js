@@ -11,14 +11,19 @@ function loadWireframe(page) {
 
   let quantity = 0;
 
-  function increaseQuantity() {
-    quantity++;
-    document.getElementById("quantity-value").textContent = quantity;
+
+  function increaseQuantity(el) {
+    const container = el.closest(".quantity-container");
+    const valueSpan = container.querySelector(".quantity-value");
+    let value = parseInt(valueSpan.textContent);
+    valueSpan.textContent = value + 1;
   }
   
-  function decreaseQuantity() {
-    if (quantity > 0) {
-      quantity--;
-      document.getElementById("quantity-value").textContent = quantity;
+  function decreaseQuantity(el) {
+    const container = el.closest(".quantity-container");
+    const valueSpan = container.querySelector(".quantity-value");
+    let value = parseInt(valueSpan.textContent);
+    if (value > 0) {
+      valueSpan.textContent = value - 1;
     }
   }

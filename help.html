@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Help</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;500&family=Potta+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="top-banner">
+  <div>
+    <span>Get 5% off your first order</span>
+    <span class="promo-code">Promo: ORDER5</span>
+  </div>
+  <img src="Top Bar.png" alt="Top Bar" class="top-bar-img">
+</div>
+
+<img src="Login.png" alt="Login" class="login-img">
+
+<div class="logo-and-nav">
+  <img src="Tres Delish Logo.png" alt="Logo" class="logo">
+
+  <div class="nav-buttons">
+    <button onclick="location.href='index.html'">Home</button>
+    <button onclick="loadWireframe('menu')">Browse Menu</button>
+    <button>Bulk Buy</button>
+    <button>Custom</button>
+    <button>Discounts</button>
+    <button onclick="loadWireframe('track')">Track Order</button>
+    <button onclick="loadWireframe('help')">Help</button>
+  </div>
+</div>
+
+<div class="info-box">
+  <h1>Need Help? We've Got You Covered!</h1>
+
+  <section id="faqs" class="help-section">
+    <h2>Frequently Asked Questions</h2>
+    <details>
+      <summary>How do I view the menu?</summary>
+      <p>Click on the 'Menu' button to load the menu.</p>
+    </details>
+    <details>
+      <summary>Where can I pay for my order?</summary>
+      <p>Navigate to Track Order. Fill in your details and pay for your order.</p>
+    </details>
+  </section>
+
+  <section id="guides" class="help-section">
+    <h2>User Guides</h2>
+    <ul>
+      <li>Navigate using your mouse and click on the button to access it's contents.</li>
+    </ul>
+  </section>
+
+  <section id="troubleshooting" class="help-section">
+    <h2>Troubleshooting</h2>
+    <ul>
+      <li>Website not loading? Try clearing your browser cache.</li>
+      <li>Can't log in? Make sure your email and password are correct, or reset them.</li>
+    </ul>
+  </section>
+
+  <section id="contact-support" class="help-section">
+    <h2>Contact Support</h2>
+    <p>If you still need help, send us a message:</p>
+    <form>
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+  
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</div>
+
+<div class="accent-bar"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -486,20 +486,25 @@ color: white;
   text-align: center;
 }
 
+
 /* Increase/Decrease Buttons */
 .quantity-container {
-  position: relative;
-  display: inline-block;
-  width: 50px;
-  height: 20px;
-  margin-top: -40px;
-  margin-left: 10px;
+  position: absolute;
+  width: 50px;    /* adjust as necessary for correct fit */
+  height: 20px;   /* adjust based on the actual button size */
+  display: block;
+  z-index: 2;
+  /* Adjust positioning to ensure image is centered under the price */
+  top: 240px;     /* You can tweak this if needed */
+  left: 180px;    /* This is the current correct position from your previous code */
 }
 
 .quantity-img {
-  width: 100%;
-  height: auto;
+  max-width: 50px;    /* Set max width to desired size */
+  max-height: 30px;   /* Set max height to desired size */
   display: block;
+  object-fit: contain;
+  margin: 0 auto;     /* Center the image horizontally */
 }
 
 .click-zone {
@@ -518,13 +523,208 @@ color: white;
   right: 0;
 }
 
-#quantity-value {
+.quantity-value {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'League Spartan', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
   color: #03081F;
+}
+
+/* Positioning for each button (directly under price) */
+.info-box .option1-quantity {
+  top: 255px;  /* 230 (price) + ~25 for spacing */
+  left: 145px;
+}
+
+.info-box .option2-quantity {
+  top: 255px;
+  left: 345px;
+}
+
+.info-box .option3-quantity {
+  top: 255px;
+  left: 545px;
+}
+
+.info-box .option4-quantity {
+  top: 255px;
+  left: 745px;
+}
+
+.info-box .option5-quantity {
+  top: 255px;
+  left: 945px;
+}
+
+.info-box .option6-quantity {
+  top: 255px;
+  left: 1145px;
+}
+
+
+
+/* Tracking Order Design */
+
+.info-box .billing-details {
+  position: absolute;
+  top: 10px;
+  left: 430px;
+  height: auto;
+  width: 250px;
+  border-radius: 8px;
+}
+
+.info-box .payment {
+  position: absolute;
+  top: 10px;
+  left: 750px;
+  height: auto;
+  width: 250px;
+  border-radius: 8px;
+}
+
+.info-box .billing-summary {
+  position: absolute;
+  top: 10px;
+  left: 1050px;
+  height: auto;
+  width: 190px;
+  border-radius: 8px;
+}
+
+.info-box .payment-icon {
+  position: absolute;
+  top: 60px;
+  left: 150px;
+  height: auto;
+  width: 190px;
+  border-radius: 8px;
+}
+
+.payment-title {
+  position: absolute;
+  top: -10px;
+  left: 60px;
+  font-family: 'Potta One', cursive;
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 15px;
+  color: #494541;
+  text-align: center;
+}
+
+
+
+/* Help Page Design */
+.info-box h1 {
+  position: absolute;
+  top: -10px;
+  left: 40px;
+  font-family: 'Potta One', cursive;
+  font-size: 30px;
+  color: #03081F;
+}
+
+/* Help Sections - Shared Style */
+.help-section {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 12px;
+  color: #494541;
+  max-width: 550px;
+}
+
+#faqs {
+  top: 50px;
+  left: 40px;
+}
+
+#guides {
+  top: 50px;
+  left: 450px;
+}
+
+#troubleshooting {
+  top: 200px;
+  left: 450px;
+}
+
+#contact-support {
+  top: 10px;
+  left: 950px;
+}
+
+.help-section h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #7695FF;
+  margin-bottom: 10px;
+}
+
+/* FAQ dropdown styling */
+.help-section details {
+  margin-bottom: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.help-section summary {
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.help-section summary:hover {
+  color: #7695FF;
+}
+
+/* Contact Form Styling */
+.help-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+  max-width: 400px;
+}
+
+.help-section label {
+  font-weight: 500;
+  color: #03081F;
+}
+
+.help-section input,
+.help-section textarea {
+  padding: 8px;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.help-section button {
+  width: fit-content;
+  background-color: #7695FF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.help-section button:hover {
+  background-color: #5a78d0;
 }
