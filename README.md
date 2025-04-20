@@ -1,10 +1,10 @@
-Purpose of the project:
+**Purpose of the project:**
 The primary objective of the website is to create a website for users aged 18 or over to be able to view a large menu of doughnuts ranging from different flavours, sizes and 
 shapes, all from the comfort of a screen. The design of the website aims to be aesthetic and coordinated colour scheme as well as visual aids (pictures/icons) to help 
 complement the user’s experience.
 
 
-Value it provides to the users:
+**Value it provides to the users:**
 User Persona 1 - Simon Denzel
 This website is designed with the target user, Simon Denzel, a 35-year-old office professional known for organizing top-tier treats for workplace events. Simon values quality
 and pays attention to detail, so the site delivers a clean, professional browsing experience with no pop-ups or intrusive ads. It offers clearly labeled products with full 
@@ -19,7 +19,7 @@ with bold headings and eye-catching visuals. The homepage highlights current dea
 to trending or personalized offers. With minimal clicks to reach what she wants, the site ensures a smooth, fun, and visually delightful experience that fits seamlessly into
 her fast-paced, social-media lifestyle.
 
-Development Process:
+**Development Process:**
 Whilst developing my website, I decided to make a few changes to the wireframe in order to cater the user's needs further and increase the overall accessibility of the
 website.
 
