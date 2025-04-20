@@ -1,10 +1,10 @@
-<u>**Purpose of the project:**</u>
+**<u>Purpose of the project:</u>**
 The primary objective of the website is to create a website for users aged 18 or over to be able to view a large menu of doughnuts ranging from different flavours, sizes and 
 shapes, all from the comfort of a screen. The design of the website aims to be aesthetic and coordinated colour scheme as well as visual aids (pictures/icons) to help 
 complement the user’s experience.
 
 
-<u>**Value it provides to the users:**</u>
+**<u>Value it provides to the users:</u>**
 User Persona 1 - Simon Denzel
 This website is designed with the target user, Simon Denzel, a 35-year-old office professional known for organizing top-tier treats for workplace events. Simon values quality
 and pays attention to detail, so the site delivers a clean, professional browsing experience with no pop-ups or intrusive ads. It offers clearly labeled products with full 
@@ -19,7 +19,7 @@ with bold headings and eye-catching visuals. The homepage highlights current dea
 to trending or personalized offers. With minimal clicks to reach what she wants, the site ensures a smooth, fun, and visually delightful experience that fits seamlessly into
 her fast-paced, social-media lifestyle.
 
-**Development Process:**
+**<u>Development Process:</u>**
 Whilst developing my website, I decided to make a few changes to the wireframe in order to cater the user's needs further and increase the overall accessibility of the
 website.
 
@@ -42,5 +42,9 @@ Original Track Order wireframe:
 Updated wireframe:
 <img width="950" alt="image" src="https://github.com/user-attachments/assets/922d521d-636b-40f0-9563-9b98bfb2f187" />
 
+**<u>Manual Testing:</u>**
+Initially, there were issues with the positioning of the + and - button. In order to debug and view what was wrong with the positioning, I added the code:
+background-color: rgba(255, 0, 0, 0.2); and background-color: rgba(0, 128, 0, 0.2);, in order to highlight the clickable areas and therefore adjust the positions accordingly.
+![Screenshot 2025-04-20 210751](https://github.com/user-attachments/assets/6bffaff9-b79c-4186-a3a2-e4ec49d94b71)
 
 
