@@ -34,7 +34,7 @@ Updated wireframe:
 I also updated the 'track order' wireframe. The new design layout is more cohesive and clear, and includes a visual icon to indicate the payment process, providing a smoother
 user experience.
 Original Track Order wireframe:
-<img width="380" alt="image" src="https://github.com/user-attachments/assets/33065d9d-439f-430d-a2df-acc24a24356e" />
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/33065d9d-439f-430d-a2df-acc24a24356e" />
 Updated wireframe:
 <img width="950" alt="image" src="https://github.com/user-attachments/assets/922d521d-636b-40f0-9563-9b98bfb2f187" />
 
