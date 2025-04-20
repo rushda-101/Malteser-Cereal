@@ -42,6 +42,10 @@ Original Track Order wireframe:
 Updated wireframe:
 <img width="950" alt="image" src="https://github.com/user-attachments/assets/922d521d-636b-40f0-9563-9b98bfb2f187" />
 
+This is the new addition to the wireframes, the 'help' wireframe. Adding a 'Help' wireframe improves user experience by offering guidance, reducing frustration, and supporting self-service, especially for new or confused users.
+![Screenshot 2025-04-20 214917](https://github.com/user-attachments/assets/94f0f985-bb8d-4cbc-b512-d81665b64f8a)
+
+
 **<u>Manual Testing:</u>**
 Initially, there were issues with the positioning of the + and - button. In order to debug and view what was wrong with the positioning, I added the code:
 background-color: rgba(255, 0, 0, 0.2); and background-color: rgba(0, 128, 0, 0.2);, in order to highlight the clickable areas and therefore adjust the positions accordingly.
