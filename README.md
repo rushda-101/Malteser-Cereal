@@ -46,7 +46,11 @@ This is the new addition to the wireframes, the 'help' wireframe. Adding a 'Help
 ![Screenshot 2025-04-20 214917](https://github.com/user-attachments/assets/94f0f985-bb8d-4cbc-b512-d81665b64f8a)
 
 **<u>Setting up and running the project:</u>**
-After
+After loading the website, you will be initially directed to the homepage. At the top of the page, there are buttons available to click on.
+To load the menu, click on the 'Menu' button to load up the menu wireframe. When on the wireframe, there are + and - buttons underneath each menu option. To add an item, click on the '+' or to decrease the quantity, click on the '-' button.
+To load the checkout, click on the 'Track Order' button. 
+If you need any help, click on the 'Help'. Here, you are able to view any Frequently Asked Questions (FAQ's) by clicking on the specific box you would like to view. If you would like to contact support, enter your email address and your message, then click 'Send' to send your message. Hold and drag the edge of the box to expand it's size on 'Contact Support'.
+To load up the homepage again, click on 'Home'.
 
 
 **<u>Manual Testing:</u>**
