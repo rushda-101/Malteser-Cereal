@@ -45,6 +45,9 @@ Updated wireframe:
 This is the new addition to the wireframes, the 'help' wireframe. Adding a 'Help' wireframe improves user experience by offering guidance, reducing frustration, and supporting self-service, especially for new or confused users.
 ![Screenshot 2025-04-20 214917](https://github.com/user-attachments/assets/94f0f985-bb8d-4cbc-b512-d81665b64f8a)
 
+**<u>Setting up and running the project:</u>**
+After
+
 
 **<u>Manual Testing:</u>**
 Initially, there were issues with the positioning of the + and - button. In order to debug and view what was wrong with the positioning, I added the code:
