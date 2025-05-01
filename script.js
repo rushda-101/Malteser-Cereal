@@ -8,7 +8,7 @@ function loadWireframe(page) {
     }
   }
 
-
+// This part of the code was taken from the internet
   let quantity = 0;
 
 
